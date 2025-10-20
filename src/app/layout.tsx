@@ -3,8 +3,8 @@ import './globals.css';
 import { Toaster } from "@/components/ui/toaster"
 
 export const metadata: Metadata = {
-  title: 'Ram Kasuru | AI Engineer & CUDA Developer',
-  description: 'Personal portfolio of Ram Kasuru, an AI and ML Engineer specializing in Applied Artificial Intelligence, CUDA Programming, and LLM Research.',
+  title: 'Ram Kasuru | AI Engineer & Researcher',
+  description: 'Personal portfolio of Ram Kasuru, an AI and ML Engineer specializing in Applied Artificial Intelligence and LLM Research.',
 };
 
 export default function RootLayout({

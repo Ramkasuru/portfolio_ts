@@ -40,7 +40,7 @@ export const skills = {
     "Languages": ["Python", "C++", "Java", "SQL"],
     "AI/ML Tools": ["PyTorch", "TensorFlow", "Hugging Face", "scikit-learn", "LangChain"],
     "Data & Visualization": ["Pandas", "NumPy", "Matplotlib", "Seaborn", "Power BI"],
-    "Systems & Development": ["CUDA", "HPC", "Distributed Computing", "Docker", "Git", "Firebase"]
+    "Systems & Development": ["HPC", "Distributed Computing", "Docker", "Git", "Firebase"]
 };
 
 export const experience = [
