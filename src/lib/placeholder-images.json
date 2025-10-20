@@ -1,3 +1,28 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "outlier-logo-1",
+      "description": "Outlier AI company logo",
+      "imageUrl": "https://images.unsplash.com/photo-1619551734325-81aaf323686c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxjb21wYW55JTIwbG9nb3xlbnwwfHx8fDE3NjA5MTk3NTZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "company logo"
+    },
+    {
+      "id": "ziberr-logo-1",
+      "description": "Ziberr company logo",
+      "imageUrl": "https://images.unsplash.com/photo-1627843563095-f6e94676cfe0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8Y29tcGFueSUyMGxvZ298ZW58MHx8fHwxNzYwOTE5NzU2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "company logo"
+    },
+    {
+      "id": "slm-llm-project-1",
+      "description": "Abstract visualization for SLM vs LLM project",
+      "imageUrl": "https://images.unsplash.com/photo-1557264337-e8a93017fe92?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxhYnN0cmFjdCUyMHRlY2h8ZW58MHx8fHwxNzYwOTQ2NDY4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "abstract tech"
+    },
+    {
+      "id": "viola-project-1",
+      "description": "Abstract visualization for VIOLA project",
+      "imageUrl": "https://images.unsplash.com/photo-1758626054657-a33847437867?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxhaSUyMGFzc2lzdGFudHxlbnwwfHx8fDE3NjEwMDM3Nzl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "ai assistant"
+    }
+  ]
 }
