@@ -20,13 +20,12 @@ const Projects = () => {
                 <DialogTrigger asChild>
                   <div className="group glass-card rounded-xl overflow-hidden cursor-pointer h-full flex flex-col">
                     {image && (
-                      <div className="overflow-hidden">
+                      <div className="overflow-hidden relative h-64">
                         <Image
                           src={image.imageUrl}
                           alt={project.title}
-                          width={600}
-                          height={400}
-                          className="w-full h-auto object-cover transition-transform duration-500 ease-in-out group-hover:scale-105"
+                          fill
+                          className="object-cover transition-transform duration-500 ease-in-out group-hover:scale-105"
                           data-ai-hint={image.imageHint}
                         />
                       </div>
@@ -54,14 +53,15 @@ const Projects = () => {
                     <DialogDescription asChild>
                       <div>
                         {image && (
-                          <Image
-                            src={image.imageUrl}
-                            alt={project.title}
-                            width={600}
-                            height={400}
-                            className="w-full h-auto object-cover rounded-lg mb-4"
-                            data-ai-hint={image.imageHint}
-                          />
+                          <div className="relative h-80 mb-4 rounded-lg overflow-hidden">
+                            <Image
+                              src={image.imageUrl}
+                              alt={project.title}
+                              fill
+                              className="object-cover"
+                              data-ai-hint={image.imageHint}
+                            />
+                          </div>
                         )}
                         <p className="text-foreground mb-4">{project.details}</p>
                         <div className="flex flex-wrap gap-2 my-4">
