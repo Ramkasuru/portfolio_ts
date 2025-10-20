@@ -13,6 +13,12 @@
       "imageHint": "company logo"
     },
     {
+      "id": "codetown-logo-1",
+      "description": "CodeTown EdTech company logo",
+      "imageUrl": "https://images.unsplash.com/photo-1661347998996-dcf102498c63?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHx0ZWNoJTIwbG9nb3xlbnwwfHx8fDE3NjA5MzQ2NTN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "tech logo"
+    },
+    {
       "id": "slm-llm-project-1",
       "description": "Abstract visualization for SLM vs LLM project",
       "imageUrl": "https://images.unsplash.com/photo-1557264337-e8a93017fe92?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxhYnN0cmFjdCUyMHRlY2h8ZW58MHx8fHwxNzYwOTQ2NDY4fDA&ixlib=rb-4.1.0&q=80&w=1080",
@@ -23,6 +29,30 @@
       "description": "Abstract visualization for VIOLA project",
       "imageUrl": "https://images.unsplash.com/photo-1758626054657-a33847437867?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxhaSUyMGFzc2lzdGFudHxlbnwwfHx8fDE3NjEwMDM3Nzl8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "ai assistant"
+    },
+    {
+      "id": "brain-stroke-project-1",
+      "description": "Visualization for Brain Stroke Prediction project",
+      "imageUrl": "https://images.unsplash.com/photo-1666214280165-20e3d73d70bf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxtcmklMjBzY2FufGVufDB8fHx8MTc2MDkzMTgwNnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "mri scan"
+    },
+    {
+      "id": "emergency-app-project-1",
+      "description": "Visualization for Emergency Services App",
+      "imageUrl": "https://images.unsplash.com/photo-1634025130850-1d24389e25c7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8YW1idWxhbmNlfGVufDB8fHx8MTc2MTAwNDU0NXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "ambulance"
+    },
+    {
+      "id": "acurate-project-1",
+      "description": "Visualization for ACURATE Triage System",
+      "imageUrl": "https://images.unsplash.com/photo-1554734867-bf3c00a49371?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxlbWVyZ2VuY3klMjByb29tfGVufDB8fHx8MTc2MTAwNDU0NXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "emergency room"
+    },
+    {
+      "id": "dash-project-1",
+      "description": "Visualization for DASH Personal Project",
+      "imageUrl": "https://images.unsplash.com/photo-1584301952952-8544e5ae7a26?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxhaSUyMGRhc2hib2FyZHxlbnwwfHx8fDE3NjA5NjU1Mjh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "ai dashboard"
     }
   ]
 }

@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Github, Linkedin, FileText, Send } from "lucide-react";
+import { Github, Linkedin, FileText, Send, Mail } from "lucide-react";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import ParticleBackground from "@/components/ui/particle-background";
@@ -27,6 +27,15 @@ const Hero = () => {
           </h1>
         </motion.div>
 
+        <motion.p 
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8, delay: 0.7 }}
+          className="mt-6 max-w-xl mx-auto text-lg text-muted-foreground"
+        >
+          I build intelligent systems that solve real-world problems, from enhancing accessibility with multimodal AI to optimizing performance with advanced machine learning.
+        </motion.p>
+
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
@@ -45,13 +54,18 @@ const Hero = () => {
           </Button>
           <div className="flex gap-2">
             <Button asChild variant="ghost" size="icon" className="h-12 w-12 hover:bg-white/10">
-              <a href="https://www.linkedin.com/in/kasuru/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+              <a href="https://www.linkedin.com/in/kasuru-kodanda-rama-raju-1bb8442/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
                 <Linkedin className="h-6 w-6" />
               </a>
             </Button>
             <Button asChild variant="ghost" size="icon" className="h-12 w-12 hover:bg-white/10">
               <a href="https://github.com/Ramkasuru" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
                 <Github className="h-6 w-6" />
+              </a>
+            </Button>
+             <Button asChild variant="ghost" size="icon" className="h-12 w-12 hover:bg-white/10">
+              <a href="mailto:kodanda4u@gmail.com" aria-label="Email">
+                <Mail className="h-6 w-6" />
               </a>
             </Button>
           </div>
