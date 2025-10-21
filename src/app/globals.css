@@ -82,8 +82,9 @@
   * {
     @apply border-border;
   }
-  html {
+  html, body {
     @apply scroll-smooth;
+    scroll-snap-type: y proximity;
   }
   body {
     @apply bg-background text-foreground;
