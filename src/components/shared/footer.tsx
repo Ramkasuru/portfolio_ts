@@ -11,7 +11,7 @@ const Footer = () => {
   ];
 
   return (
-    <footer className="bg-gradient-to-r from-[#0f2027] via-[#203a43] to-[#2c5364] text-gray-300 py-8">
+    <footer className="bg-background/50 text-gray-300 py-8">
       <div className="container mx-auto px-4 text-center">
         <div className="flex justify-center items-center gap-4 mb-4">
           {socialLinks.map((link) => (

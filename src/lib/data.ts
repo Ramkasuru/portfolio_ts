@@ -81,15 +81,6 @@ export const experience = [
 
 export const projects = [
   {
-    title: "DASH (Personal Project)",
-    description: "An evolution of the VIOLA multimodal AI, enhancing its core pipeline for superior performance.",
-    details: "DASH represents the next step in my multimodal AI journey, building upon the foundations of VIOLA. This project focused on significant performance enhancements, boosting object detection accuracy from 90% to 98% and increasing contextual relevance to 95%. It showcases my continued growth and mastery in creating sophisticated, integrated AI systems.",
-    tags: ["Multimodal AI", "Personal Project", "AI Enhancement", "YOLOv8", "GPT-4"],
-    imageId: "dash-project-1",
-    award: "Personal Endeavor 2025",
-    link: "https://github.com/Ramkasuru"
-  },
-  {
     title: "VIOLA: Multimodal AI Assistant",
     description: "An integrated AI assistant combining vision, speech, and language understanding.",
     details: "VIOLA is a multimodal AI assistant that leverages state-of-the-art models to create a seamless interactive experience. It integrates YOLOv8 for real-time object detection, OpenAI's Whisper for accurate speech-to-text, and GPT-4 for advanced natural language understanding and generation. This project was recognized for its innovative approach to human-computer interaction and its potential for social impact.",
@@ -97,6 +88,15 @@ export const projects = [
     imageId: "viola-project-1",
     award: "Winner – Best AI for Social Impact",
     link: "https://github.com/Ramkasuru/VIOLA-Multimodal-AI-Assistant"
+  },
+  {
+    title: "DASH (Personal Project)",
+    description: "An evolution of the VIOLA multimodal AI, enhancing its core pipeline for superior performance.",
+    details: "DASH represents the next step in my multimodal AI journey, building upon the foundations of VIOLA. This project focused on significant performance enhancements, boosting object detection accuracy from 90% to 98% and increasing contextual relevance to 95%. It showcases my continued growth and mastery in creating sophisticated, integrated AI systems.",
+    tags: ["Multimodal AI", "Personal Project", "AI Enhancement", "YOLOv8", "GPT-4"],
+    imageId: "dash-project-1",
+    award: "Personal Endeavor 2025",
+    link: "https://github.com/Ramkasuru"
   },
   {
     title: "ACURATE: AI-Powered Emergency Triage",
@@ -107,16 +107,7 @@ export const projects = [
     award: "",
     link: "https://github.com/Ramkasuru"
   },
-  {
-    title: "SLMs vs. LLMs: A Performance Benchmark",
-    description: "A comprehensive thesis benchmarking the performance of compact SLMs against full-scale LLMs.",
-    details: "This 2025 thesis investigates the trade-offs between Smaller Language Models (SLMs) like Phi-2 and Gemma versus Large Language Models (LLMs) such as Llama 3.1. The research focuses on performance metrics including accuracy, inference speed, and resource consumption across a variety of downstream tasks. The goal is to identify optimal use cases for each model class in resource-constrained environments.",
-    tags: ["Thesis", "LLM", "SLM", "Benchmarking", "Phi-2", "Gemma", "Llama 3.1"],
-    imageId: "slm-llm-project-1",
-    award: "Upcoming Thesis 2025",
-    link: "https://github.com/Ramkasuru/Masters-Thesis"
-  },
-  {
+    {
     title: "Brain Stroke Prediction Using ML",
     description: "A machine learning pipeline to predict brain strokes from MRI images with high accuracy.",
     details: "This project involved processing and augmenting 394 MRI images across four categories (glioma, meningioma, pituitary, and normal) to build a robust prediction model. The resulting machine learning pipeline achieved a 92% prediction accuracy, enhancing the potential for early stroke detection by 35% through model refinement.",
@@ -133,5 +124,14 @@ export const projects = [
     imageId: "emergency-app-project-1",
     award: "",
     link: "https://github.com/Ramkasuru/Emergency_Services_App"
+  },
+  {
+    title: "SLMs vs. LLMs: A Performance Benchmark",
+    description: "A comprehensive thesis benchmarking the performance of compact SLMs against full-scale LLMs.",
+    details: "This 2025 thesis investigates the trade-offs between Smaller Language Models (SLMs) like Phi-2 and Gemma versus Large Language Models (LLMs) such as Llama 3.1. The research focuses on performance metrics including accuracy, inference speed, and resource consumption across a variety of downstream tasks. The goal is to identify optimal use cases for each model class in resource-constrained environments.",
+    tags: ["Thesis", "LLM", "SLM", "Benchmarking", "Phi-2", "Gemma", "Llama 3.1"],
+    imageId: "slm-llm-project-1",
+    award: "Upcoming Thesis 2025",
+    link: "https://github.com/Ramkasuru/Masters-Thesis"
   },
 ];

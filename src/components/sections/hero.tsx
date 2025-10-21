@@ -20,7 +20,7 @@ const Hero = () => {
           <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold tracking-tight">
             <span className="block text-muted-foreground mb-2">Hi, I'm Ram Kasuru</span>
             <AnimatedText 
-              text="AI Engineer and Researcher." 
+              text="AI Engineer, CUDA Developer, and Researcher." 
               el="span"
               className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-accent"
             />
