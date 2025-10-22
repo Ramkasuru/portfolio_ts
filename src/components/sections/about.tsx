@@ -1,3 +1,5 @@
+"use client";
+
 import { education, personalityTraits } from "@/lib/data";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { ScrollReveal } from "@/components/ui/scroll-reveal";
