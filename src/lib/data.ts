@@ -135,3 +135,14 @@ export const projects = [
     link: "https://github.com/Ramkasuru/Masters-Thesis"
   },
 ];
+
+
+export const researchPapers = [
+  {
+    title: "From Many Small to One Large: Evaluating the Performance and Efficiency of SLMs vs LLMs",
+    description: "A comprehensive survey paper analyzing the trade-offs between Small and Large Language Models (SLMs vs LLMs). Benchmarked Phi-2, Gemma 2B, MiniCPM, and Llama 3.1 across reasoning, efficiency, and scalability metrics.",
+    link: "#",
+    keywords: ["SLMs", "LLMs", "Benchmarking", "RAG Pipelines", "Efficiency"],
+    imageId: "slm-llm-project-1",
+  },
+];

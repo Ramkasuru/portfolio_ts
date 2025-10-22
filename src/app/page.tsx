@@ -4,6 +4,7 @@ import About from "@/components/sections/about";
 import Skills from "@/components/sections/skills";
 import Experience from "@/components/sections/experience";
 import Projects from "@/components/sections/projects";
+import Research from "@/components/sections/research";
 import Contact from "@/components/sections/contact";
 import Footer from "@/components/shared/footer";
 import { SectionWrapper } from "@/components/ui/section-wrapper";
@@ -26,6 +27,7 @@ export default function Home() {
             <Experience />
           </SectionWrapper>
           <Projects />
+          <Research />
           <SectionWrapper id="contact">
             <Contact />
           </SectionWrapper>
