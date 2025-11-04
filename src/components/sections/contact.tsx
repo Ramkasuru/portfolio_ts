@@ -37,8 +37,8 @@ const Contact = () => {
     setIsLoading(true);
 
     const serviceId = "service_yqh8qqf";
-    const templateId = "YOUR_EMAILJS_TEMPLATE_ID"; // <-- PASTE YOUR TEMPLATE ID HERE
-    const publicKey = "YOUR_EMAILJS_PUBLIC_KEY"; // <-- PASTE YOUR PUBLIC KEY HERE
+    const templateId = "template_e5viohl";
+    const publicKey = "5iE6IOaP7VLLRIYIr";
     
     const templateParams = {
       from_name: values.name,
