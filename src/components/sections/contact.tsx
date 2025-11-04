@@ -36,9 +36,9 @@ const Contact = () => {
   const onSubmit = (values: z.infer<typeof formSchema>) => {
     setIsLoading(true);
 
-    const serviceId = "service_yqh8qqf";
-    const templateId = "template_e5viohl";
-    const publicKey = "5iE6IOaP7VLLRIYIr";
+    const serviceId = process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID!;
+    const templateId = process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID!;
+    const publicKey = process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY!;
     
     const templateParams = {
       from_name: values.name,
