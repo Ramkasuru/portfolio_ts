@@ -9,7 +9,7 @@ export const education = [
   {
     degree: "B.Tech in AI & ML",
     institution: "Dayananda Sagar University",
-    years: "2019–2024",
+    years: "2020–2024",
   },
 ];
 
