@@ -20,7 +20,7 @@ const Hero = () => {
           <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold tracking-tight">
             <span className="block text-muted-foreground mb-2">Hi, I'm Ram Kasuru</span>
             <AnimatedText 
-              text="AI Engineer, CUDA Developer, and Researcher." 
+              text="AI Engineer and Researcher." 
               el="span"
               className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-accent"
             />
@@ -54,7 +54,7 @@ const Hero = () => {
           </Button>
           <div className="flex gap-2">
             <Button asChild variant="ghost" size="icon" className="h-12 w-12 hover:bg-white/10">
-              <a href="https://www.linkedin.com/in/kasuru-kodanda-rama-raju-1bb8442/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+              <a href="https://www.linkedin.com/in/kasuru/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
                 <Linkedin className="h-6 w-6" />
               </a>
             </Button>

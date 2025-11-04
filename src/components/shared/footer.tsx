@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button";
 const Footer = () => {
   const socialLinks = [
     { icon: Mail, href: "mailto:kodanda4u@gmail.com", label: "Email" },
-    { icon: Linkedin, href: "https://www.linkedin.com/in/kasuru-kodanda-rama-raju-1bb8442/", label: "LinkedIn" },
+    { icon: Linkedin, href: "https://www.linkedin.com/in/kasuru/", label: "LinkedIn" },
     { icon: Github, href: "https://github.com/Ramkasuru", label: "GitHub" },
     { icon: FileText, href: "/Ram-Kasuru-Resume.pdf", label: "Resume" },
   ];
