@@ -56,7 +56,7 @@ export const experience = [
     ],
   },
   {
-    role: "Technical Operations Intern",
+    role: "Intern",
     company: "Ziberr (SuperFone)",
     period: "Feb 2024 – Apr 2024",
     logoId: "ziberr-logo-1",
@@ -67,7 +67,7 @@ export const experience = [
     ],
   },
   {
-    role: "Data Analyst Intern",
+    role: "Intern",
     company: "CodeTown EdTech Pvt Ltd",
     period: "Sep 2023 – Nov 2023",
     logoId: "codetown-logo-1",
