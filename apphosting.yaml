@@ -12,9 +12,3 @@ runConfig:
       secret: EMAILJS_TEMPLATE_ID
     NEXT_PUBLIC_EMAILJS_PUBLIC_KEY:
       secret: EMAILJS_PUBLIC_KEY
-# Increase the startup timeout to give the server more time to become healthy.
-startupProbe:
-  timeoutSeconds: 240
-  periodSeconds: 240
-  failureThreshold: 1
-  tcpSocket: {}
