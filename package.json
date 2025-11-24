@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "node server.js",
+    "start": "next start -p ${PORT:-8080}",
     "lint": "next lint",
     "typecheck": "tsc --noEmit"
   },
@@ -39,7 +39,6 @@
     "clsx": "^2.1.1",
     "date-fns": "^3.6.0",
     "embla-carousel-react": "^8.6.0",
-    "express": "^4.19.2",
     "firebase": "^11.9.1",
     "framer-motion": "^11.2.10",
     "genkit": "^1.20.0",
@@ -57,7 +56,6 @@
     "zod": "^3.24.2"
   },
   "devDependencies": {
-    "@types/express": "^4.17.21",
     "@types/node": "^20",
     "@types/react": "^18.3.3",
     "@types/react-dom": "^18.3.0",
