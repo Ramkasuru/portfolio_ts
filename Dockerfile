@@ -1,11 +1,9 @@
-# 1. Builder Stage: Install dependencies and build the Next.js app
+# 1. Builder Stage: Install dependencies and build the application
 FROM node:18-alpine AS builder
 WORKDIR /app
 
-# Copy package.json and package-lock.json
+# Copy package files and install dependencies
 COPY package*.json ./
-
-# Install dependencies
 RUN npm install
 
 # Copy the rest of the application source code
@@ -20,13 +18,13 @@ WORKDIR /app
 
 ENV NODE_ENV=production
 
-# Copy built assets from the builder stage
+# Copy only the necessary files from the builder stage
+COPY --from=builder /app/public ./public
 COPY --from=builder /app/.next ./.next
 COPY --from=builder /app/node_modules ./node_modules
 COPY --from=builder /app/package.json ./package.json
-COPY --from=builder /app/public ./public
 
 EXPOSE 8080
 
-# The command to start the Next.js application
+# The command to start the application
 CMD ["npm", "run", "start"]
