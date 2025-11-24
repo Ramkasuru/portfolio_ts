@@ -1,6 +1,12 @@
 # Settings to manage and configure a Firebase App Hosting backend.
 # https://firebase.google.com/docs/app-hosting/configure
 
+buildConfig:
+  # Use the standard Node.js buildpack
+  builder: google.nodejs.npm
+  # Tell the buildpack how to start the app
+  runCommand: 'npm run start'
+
 runConfig:
   # Increase this value if you'd like to automatically spin up
   # more instances in response to increased traffic.
