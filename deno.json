@@ -1,7 +1,0 @@
-{
-  "deploy": {
-    "project": "studio-6090335349-ebdb7",
-    "service": "mini",
-    "entrypoint": "npm run start"
-  }
-}
