@@ -1,0 +1,1 @@
+If you can see this text, the public folder is working correctly.
