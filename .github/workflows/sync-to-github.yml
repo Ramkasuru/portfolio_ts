@@ -17,7 +17,7 @@ jobs:
 
       - name: Push to GitHub
         env:
-          GITHUB_TOKEN: ${{ secrets.GH_PAT }}
+          GH_PAT: ${{ secrets.GH_PAT }}
         run: |
-          git remote add github https://x-access-token:${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}@github.com/Ramkasuru/portfolio_ts.git
+          git remote add github https://x-access-token:${{ env.GH_PAT }}@github.com/Ramkasuru/portfolio_ts.git
           git push github main
