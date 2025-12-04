@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "node index.js",
+    "start": "node .next/standalone/server.js",
     "lint": "next lint",
     "typecheck": "tsc --noEmit"
   },
@@ -56,11 +56,9 @@
     "semver": "^7.6.3",
     "zod": "^3.24.2"
   },
-
   "engines": {
-  "node": "20.x"
+    "node": "20.x"
   },
-  
   "devDependencies": {
     "@types/node": "^20",
     "@types/react": "^18.3.3",
@@ -73,5 +71,3 @@
     "typescript": "^5"
   }
 }
-
-
