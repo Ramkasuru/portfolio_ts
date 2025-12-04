@@ -1,0 +1,24 @@
+
+name: Sync to GitHub Repository
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # Fetches all history for all branches and tags
+
+      - name: Push to GitHub
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_PAT }}
+        run: |
+          git remote add github https://x-access-token:${GITHUB_TOKEN}@github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
+          git push github main
+
